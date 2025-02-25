@@ -1,0 +1,35 @@
+:root {
+    --imagem-fundo: url("./img/rosas.jpg"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem-fundo);
+    background-size: cover;
+    transition: background-image 2s;
+    background-repeat: no-repeat;
+}
+
+input{
+    padding: 8px 12px;
+    font-size: 20px;
+}
+
+button{
+    padding: 9px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgb(107, 12, 78);
+    border-bottom: rgb(255, 255, 255);
+    border-right: white;
+    color: rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
